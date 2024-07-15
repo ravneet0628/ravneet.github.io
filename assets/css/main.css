@@ -728,13 +728,17 @@ section,
 .about .container {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 30px;
+  padding: 40px;
+  box-sizing:border-box;
 }
 
 .about .skills-content h5 {
   font-size: 18px;
   font-weight: 700;
   margin: 30px 0 15px 0;
+  margin-bottom:20px;
+  margin-right:20px;
+ 
 }
 
 .about .progress {
@@ -790,10 +794,12 @@ section,
   left: 0;
   bottom: 0;
   margin: auto;
+
 }
 
 .about .about-me p {
-  font-size: 18px;
+    font-size: 14px;
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -805,6 +811,10 @@ section,
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align:center;
+}
+.resume .container{
+    margin-bottom:-60px;
 }
 
 .resume .resume-item {
@@ -812,6 +822,7 @@ section,
   margin-top: -2px;
   border-left: 2px solid var(--accent-color);
   position: relative;
+ 
 }
 
 .resume .resume-item h4 {
@@ -833,6 +844,10 @@ section,
 
 .resume .resume-item ul {
   padding-left: 20px;
+}
+.resume .resume-title h3{
+    margin-top:50px;
+    margin-right:100px;
 }
 
 .resume .resume-item ul li {
